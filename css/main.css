@@ -1,0 +1,100 @@
+/*A better way of selecting all elements inside a form? */
+
+form * {
+    margin-left: 50px;
+    /*width: 150px;*/
+    
+    text-align: center;
+}
+input {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+form {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+ul {
+    font-family: 'Slabo 27px', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    /*-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;*/
+}
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+.content {
+    text-align: center;
+}
+.enterItem, .deleteItem, .completeItem {
+    cursor: pointer;
+}
+/*.headings {
+    list-style: none;
+    margin-top: 25px;
+}
+.headings li {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    text-align: right;
+}
+*/
+
+.item {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 17px;
+    margin-top: 10px;
+}
+.item li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100px;
+    text-align: right;
+}
+/*Applied this style so that custom red border can be applied */
+/* Any other way to do this? */
+
+input:focus {
+    outline: none;
+}
+.missing {
+    border-color: red;
+    -webkit-box-shadow: 0 0 5px red;
+    -moz-box-shadow: 0 0 5px red;
+    box-shadow: 0 0 5px red;
+}
+/*
+.category li{
+  display: inline-block;
+  margin-left: 20px;
+  width:60px;
+  text-align: right;
+}
+*/
+
+.myList {
+    margin-top: 20px;
+    font-family: 'Slabo 27px', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+.completeItemCheckboxSelected {
+    color: white;
+}
+.itemSelected {
+    background-color: #418C48;
+    color: antiquewhite;
+}
